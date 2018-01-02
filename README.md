@@ -4,10 +4,10 @@
 
 A *starchy* library for managing application state.
 
-Check out some of the documentation examples in `Noddle` and `Noodle.Tagged`.
+Check out some of the documentation examples in `Noodle` and `Noodle.Tagged`.
 
-If you like to organize your models in to seperate modules, and then embed those models
-into other modules, you may find that sometimes there is state that you want to persist at
+If you are following the Elm architecture, organizing code into modules, embeding those modules
+into others, you may find that sometimes there is state that you want to persist at
 a higher level. You can use this library to help manage both that state, and `Action`s that update
 that state.
 
